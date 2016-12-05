@@ -1,0 +1,13 @@
+"use strict";
+var export_1 = require("./export");
+var module = require("./export");
+export_1.A();
+export_1.B();
+export_1.C();
+export_1.D();
+export_1.default();
+module.A();
+module.B();
+module.C();
+module.D();
+module.default();
